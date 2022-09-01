@@ -1,3 +1,4 @@
 name: Carole Hall, PhD Student & Researcher
 markdown: kramdown
 future: true
+permalink: /blog/:year/:month/:day/:title
