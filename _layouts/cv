@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container-fluid -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:carole.hall@stonybrook.edu">carole.hall@stonybrook.edu</a></li>
+	        		<li><a href="https://github.com/carolehall523">github.com/carolehall523</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
