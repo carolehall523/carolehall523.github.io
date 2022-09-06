@@ -14,11 +14,11 @@
 	        		<li><a href="/blog">Blog</a></li>
 	    		</ul>
 			</nav>
-			<div class="container pt-3">
+			<div class="container-lg">
 			
 			{{ content }}
 			
-			</div><!-- /.container pt-3 -->
+			</div><!-- /.container-lg -->
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:carole.hall@stonybrook.edu">carole.hall@stonybrook.edu</a></li>
